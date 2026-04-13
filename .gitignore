@@ -1,0 +1,101 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Virtual env
+# =========================
+venv/
+env/
+.env
+.env.*
+
+# =========================
+# ML / Models (VERY IMPORTANT)
+# =========================
+models/
+bert_model/
+bert_tokenizer/
+
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# HuggingFace cache
+.cache/
+huggingface/
+datasets/
+
+# =========================
+# MLflow
+# =========================
+mlruns/
+mlartifacts/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temp files
+# =========================
+*.swp
+*.swo
+*~
+*.tmp
+*.pid
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Docker
+# =========================
+*.tar
+
+# =========================
+# AWS / Credentials
+# =========================
+.aws/
+credentials
+config
+
+# =========================
+# Security / Secrets (CRITICAL)
+# =========================
+*.key
+*.pem
+secrets.*
+
+# =========================
+# Testing / Coverage (optional)
+# =========================
+.coverage
+.pytest_cache/
